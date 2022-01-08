@@ -41,6 +41,9 @@
                         <a href="team.html" class="nav-link animated-link">TEAM</a>
                     </li>
                     <li class="nav-item">
+                        <a href="schedule.html" class="nav-link animated-link">SCHEDULE</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="contact.html" class="nav-link animated-link">CONTACT US</a>
                     </li>
                 </ul>
@@ -49,19 +52,65 @@
     </nav>
 
 
-    <section class="text-light p-5" style="background-image: url(images/bg4.0.png); height: 100vh;  background-size: cover;">
+    <section class="text-light p-5" style="background-image: url(images/bg4.0.png); background-size: cover;">
         <div class="container pt-5">
+            <div class="pt-5">
+                <div class="justify-content-between align-items-center">
+                    <h1 class="mb-3 mb-md-0 pt-5 pb-4">APPLY TO BE A HACKER</h1>
+                </div>
+            </div>
+            
             <div class="justify-content-between align-items-center">
-                <h1 class="mb-3 mb-md-0 pt-5">APPLY TO BE A HACKER</h1>
-                <div class="input-group input-group-lg news-input pt-5">
-                    <span class="input-group-text bg-primary text-light">Full Name</span>
-                    <input type="text" class="form-control" aria-label="Name" placeholder="John Doe">
+                <!-- First Name input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="name-input">First Name</label>
+                    <input type="text" name="first name" id="firstname-input" class="form-control" required />
                 </div>
-                <div class="input-group input-group-lg news-input pt-2">
-                    <span class="input-group-text bg-primary text-light">Email</span>
-                    <input type="text" class="form-control" aria-label="EMAIL" placeholder="example@domain.com">
+
+                <!-- Last Name input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="name-input">Last Name</label>
+                    <input type="text" name="last name" id="lastname-input" class="form-control" required />
                 </div>
-                <button class="btn btn-primary btn-lg text-light mt-2">Submit</button>
+
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="email-input">Email Address</label>
+                    <input type="email" name="email" id="email-input" class="form-control" required />
+                </div>
+
+                <!-- Discord input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="email-input">Discord</label>
+                    <input type="text" name="discord" id="discord-input" class="form-control" required/>
+                </div>
+
+                <!-- Linkedin input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="email-input">Devpost URL</label>
+                    <input type="url" name="devpost" id="devpost-input" class="form-control" required/>
+                </div>
+
+                <!-- Github input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="email-input">GitHub URL (optional)</label>
+                    <input type="url" name="github" id="github-input" class="form-control"/>
+                </div>
+
+                <!-- Linkedin input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="email-input">Linkedin URL (optional)</label>
+                    <input type="url" name="linkedin" id="linkedin-input" class="form-control"/>
+                </div>
+
+                <!-- Message input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="form4Example3">Anything else you would like to share</label>
+                    <textarea class="form-control" id="form4Example3" rows="5"></textarea>
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary mb-4 px-4 py-2 text-light">Send</button>
             </div>
         </div>
     </section>
